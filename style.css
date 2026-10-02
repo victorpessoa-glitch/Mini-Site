@@ -1,0 +1,131 @@
+body {
+    background-color: #222;
+    color: white;
+    font-family: Arial;
+    margin: 0;
+    text-align: center;
+}
+
+.menu {
+    background-color: #111;
+    padding: 15px;
+}
+
+.menu a {
+    color: rgb(183, 179, 179);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.topo {
+    background-color: #8b0000;
+    padding: 20px;
+}
+
+.conteudo {
+    width: 80%;
+    max-width: 500px;
+    margin: 20px auto;
+    text-align: left;
+}
+
+.conteudo ul {
+    background-color: #333;
+    padding: 15px 30px;
+    border-radius: 5px;
+}
+
+.card {
+    background-color: #333;
+    border: 1px solid #555;
+    padding: 15px;
+    margin: 20px 0;
+    border-radius: 5px;
+
+}
+
+.card img {
+    width: 100%;
+    margin: 10px 0;
+    transition: all 0.3s ease;
+}
+
+.card img:hover {
+    transform: scale(1.03);
+    cursor: pointer;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #333;
+    margin-top: 15px;
+}
+
+table, th, td {
+    border: 1px solid #555;
+}
+
+th, td {
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #8b0000;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 6px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #8b0000;
+    color: white;
+    border: none;
+    padding: 8px;
+    margin-top: 10px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.rodape {
+    background-color: #111;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+.stra {
+    color: rgba(206, 7, 7, 0.979)
+}
+
+p{
+    color: white;
+    font-weight: bold;
+}
+a:hover{
+    background-color: #12af54;
+    border-radius: 5px;
+    color:white;
+}
+
+.conteudo h2{
+    text-align: center;
+}
+
+.breaking{
+    color: green;
+}
+
+.cobra{
+    color: #E74D19;
+}
+
